@@ -1,0 +1,32 @@
+{
+    "name": "greezlu/ws-database",
+    "description": "MySQL Database Manager",
+    "type": "project",
+    "license": "MIT",
+    "homepage": "https://github.com/greezlu/ws-database",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "greezlu",
+            "email": "greezlu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.4.0",
+        "ext-mysqli": "*",
+        "greezlu/ws-exception": "*"
+    },
+    "keywords": [
+        "php",
+        "mysql",
+        "mysqli",
+        "database"
+    ],
+    "autoload": {
+        "psr-4": {
+            "WebServer\\Database\\": "src/Database",
+            "WebServer\\Abstracts\\": "src/Abstracts",
+            "WebServer\\Interfaces\\": "src/Interfaces"
+        }
+    }
+}
