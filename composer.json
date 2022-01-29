@@ -24,9 +24,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "WebServer\\Database\\": "src/Database",
-            "WebServer\\Abstracts\\": "src/Abstracts",
-            "WebServer\\Interfaces\\": "src/Interfaces"
+            "WebServer\\": "src"
         }
     }
 }
